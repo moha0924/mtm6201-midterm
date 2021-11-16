@@ -270,8 +270,35 @@ h1 {
 /* footer */
 .footer {
     background-color: #5B1593 ;
+    padding: 2rem;
 }
-.flex-container{
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+
+}
+
+h4  {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.grid-container p {
+    font-size: 1rem;
+    color: white;
+
+}
+
+/* .flex-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -305,5 +332,5 @@ h1 {
     grid-row: 2/ 2;
     
   } 
-  
+   */
 
