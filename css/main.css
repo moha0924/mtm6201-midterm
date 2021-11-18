@@ -237,13 +237,12 @@ h1 {
         top: 3.8rem;
         left: 2rem;
     }
+
 }
 
 .banner-image {
     width: 100%;
 }
-
-
 
 
 .flex-container-brands {
@@ -268,6 +267,19 @@ h1 {
 
 
 /* footer */
+
+@media all and (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    
+    }
+
+}
+
 .footer {
     background-color: #5B1593 ;
     padding: 2rem;
@@ -276,7 +288,7 @@ h1 {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     margin: 2rem;
     row-gap: 0.5rem;
     column-gap: 0.5rem;
@@ -287,11 +299,17 @@ h4  {
     font-size: 2rem;
     color: white;
     font-weight: bold;
-    padding: 1rem;
+    padding-top: 1rem;
     margin-bottom: 1rem;
 }
 
-
+.icon-material li {
+    display: inline-block;
+}
+.social-icons img {
+    width: 3rem;
+    margin: 0.3rem;
+}
 .grid-container p {
     font-size: 1rem;
     color: white;
