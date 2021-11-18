@@ -221,6 +221,25 @@ h1 {
     margin-bottom: 0.3rem;
 }
 
+.flex-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #F13D87;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    
+}
+
 @media all and (max-width: 768px) {
 
     .nav-list .list-item {
