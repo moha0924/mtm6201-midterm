@@ -152,7 +152,6 @@ p {
     margin: 0 auto;
 }
 
-
 h1 {
     font-size: 2rem;
     font-weight: bold;
@@ -169,8 +168,6 @@ h1 {
     margin-bottom: 2rem;
     padding: 0 3rem;
 }
-
-
 
 .navbar {
     background-color: #5B1593;
@@ -263,7 +260,6 @@ h1 {
     width: 100%;
 }
 
-
 .flex-container-brands {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -277,13 +273,36 @@ h1 {
     width: 100%;
 }
 
+.flex-contact-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: #0B9DF4;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+}
 
 .contact {
-    display: flex;
-    justify-content: space-around;
 
 }
 
+.send button {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
 
 /* footer */
 
@@ -296,6 +315,7 @@ h1 {
         column-gap: 0.5rem;
     
     }
+
 
 }
 
